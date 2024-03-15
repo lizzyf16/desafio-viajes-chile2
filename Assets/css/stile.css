@@ -19,6 +19,8 @@
 }
 .navbar-brand{
     gap: 10px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
 }
 
@@ -49,4 +51,39 @@ main{
 .card-4 img{
     width: 100%;
     height: 20vh;
+}
+.input {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+.input_mensaje{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+.btn{
+    background-color: rgb(85, 221, 255);
+    color: white;
+}
+footer{
+    background-color: rgb(85, 221, 255);
+    color: white;
+    height: 30px;
+    padding: 20px;
+}
+.footer-cont{
+    display: flex;
+    font-weight: 100;
+    justify-content: space-between;
+    
+}
+
+.footer-cont .redes{
+    gap: 15px;
 }
