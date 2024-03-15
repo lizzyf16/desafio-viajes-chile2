@@ -3,8 +3,12 @@
     box-sizing: border-box;
     font-family: "Cabin", sans-serif;
 }
-navbar{
+.navbar{
     background-color:transparent;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+
 }
 
 .logo-viajes{
@@ -14,9 +18,8 @@ navbar{
     height:100vh;
 }
 .navbar-brand{
-    display:flex;
-    justify-items:center;
     gap: 10px;
+    text-decoration: none;
 }
 
 hr{
