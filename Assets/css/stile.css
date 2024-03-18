@@ -70,20 +70,36 @@ main{
 .btn{
     background-color: rgb(85, 221, 255);
     color: white;
+    margin-bottom: 20px;
 }
 footer{
-    background-color: rgb(85, 221, 255);
-    color: white;
-    height: 30px;
-    padding: 20px;
+ background-color: rgb(85, 221, 255);
+ padding-top: 20px;
+ 
+    
 }
 .footer-cont{
     display: flex;
     font-weight: 100;
     justify-content: space-between;
-    
+    color: white;
+    padding: 0 200px;
 }
 
-.footer-cont .redes{
-    gap: 15px;
+.redes{
+    gap: 25px;
+}
+
+@media screen and (max-width: 375px){
+    .container-3card{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .footer-cont{
+       padding: 0;
+       justify-content: space-around;
+    }
 }
